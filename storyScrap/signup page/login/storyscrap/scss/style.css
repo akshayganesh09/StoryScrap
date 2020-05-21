@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#container-fluid{
+    width: auto;
+    height: 200px;
+    background-color: rgb(4, 11, 114);
+    margin-left: auto;
+    margin-right: auto;
+}
+#container-fluid h1{
+    color: white;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+h3{
+    color: rgba(109, 108, 108, 0.966);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.body{
+    padding-top: 100px;
+    padding-left: 20px;
+    background-color: rgba(250, 251, 252, 0.986);
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+     display: grid;
+    grid-template-rows: 80px 80px; 
+    
+    border-bottom: 2px black;
+}
+
+
+
+.center .boximg {
+    padding-left: 40px;
+    max-width: 100%;
+    padding-top: -50px;
+    flex: 0 0 150px;
+    border-bottom: 2px black;
+}
+.center .boximg img{
+    /* max-width: 100%; */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.center .boxcontent{
+    padding-left: 300px;
+    padding-right: 50px;
+    padding-top: -500px;
+    margin-top: -160px;
+   
+    border-bottom: 2px black;
+}    
+.center .boxcontent h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.center1 .boximg1 {
+    margin-top: 70px;
+    padding-left: 40px;
+    max-width: 100%;
+    padding-top: -50px;
+    flex: 0 0 150px;
+    
+
+    border-bottom: 2px black;
+}
+.center1 .boximg1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* max-width: 100%;
+    border-bottom: 2px black; */
+}
+.center1 .boxcontent1{
+    padding-left: 300px;
+    padding-right: 50px;
+    padding-top: -500px;
+    margin-top: -160px;
+  
+}
+
+
+
+.center2 .boximg2 {
+    margin-top: 30px;
+    padding-left: 40px;
+    max-width: 100%;
+    padding-top: -30px;
+    flex: 0 0 150px;
+    border-bottom: 2px black;
+}
+.center2 .boximg2 img{
+    /* max-width: 100%; */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.center2 .boxcontent2{
+    padding-left: 300px;
+    padding-right: 50px;
+    padding-top: -500px;
+    margin-top: -180px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+
+}
+.bttn{
+    text-align: right;
+}
+
+
+#footer{
+    width: auto;
+    height: 80px;
+    background-color: white;
+}
+#footer h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#footer a{
+    
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: rgba(245, 201, 6, 0.685);
+    color: white;
+    margin: 0 5px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: .04s;
+    
+}
+#footer a :hover{
+    background: blue;
+}
